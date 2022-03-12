@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav.specialoffer {
+  background: #4CC2B1;
+}
+
+.nav.specialoffer.text {
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */

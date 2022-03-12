@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+$nav-head-color: #4CC2B1;
+$nav-headtext-color : #FFFFFF;
+.nav {
+    &.specialoffer {
+        background: $nav-head-color;
+        &.text {
+            color: $nav-headtext-color;
+        }
+    }
+}
