@@ -3,12 +3,12 @@
     margin: 0;
 }
 $nav-head-color: #4cc2b1;
-$nav-headtext-color: #ffffff;
+$nav-headtext-color: white;
 nav {
     width: 100%;
+   
     .specialoffer {
         background: $nav-head-color;
-        width: 100%;
         height: 40px;
         color: $nav-headtext-color;
         text-align: center;
@@ -21,9 +21,34 @@ nav {
         margin-left: auto;
         margin-right: auto;
     }
+    .nav-container {
+        width: 100%;
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        .logo {
+
+        }
+        .nav-bar {
+                
+            ul {
+                display: inline-flex;
+                li {
+                    list-style-type: none;
+                }
+            }
+        }
+    }
 }
 @media (min-width: 375px) {
     .specialoffer {
+        max-width: 375px;
+    }
+    .nav-container {
         max-width: 375px;
     }
 }
@@ -31,9 +56,15 @@ nav {
     .specialoffer {
         max-width: 768px;
     }
+    .nav-container {
+        max-width: 768px;
+    }
 }
 @media (min-width :1440px) {
     .specialoffer {
+        max-width: 1440px;
+    }
+    .nav-container {
         max-width: 1440px;
     }
 }
